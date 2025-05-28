@@ -1,0 +1,85 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff8f0; 
+  font-family: Arial, sans-serif;
+}
+div.ficha {
+  width: 180px;
+  height: 200px;
+  float:left;
+  margin: 15px;
+  text-align: center;
+  background-color: #ffe0e0; 
+  border: 2px solid #ffb3b3; 
+  border-radius: 10px;
+  padding: 9px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+}
+div.ficha:hover {
+  background-color: #ffd6d6; 
+}
+div.ficha img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+div.ficha img:hover {
+  transform: scale(1.1);
+}
+ul#menu {
+  margin: 10px 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: none; 
+  border: 3px solid #4fc3f7;
+  border-radius: 10px;
+}
+#menu li {
+  float: left;
+}
+#menu li a {
+  display: block;
+  color: #003366;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+#menu li a:hover {
+  background-color: #81d4fa;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+h1 {
+  color: #ff7043; 
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  color: #8e24aa; 
+  text-align: center;
+  margin-top: 30px;
+}
+
+h3 {
+  color: #3949ab; 
+  margin-left: 20px;
+  margin-top: 25px;
+}
+div:last-of-type {
+  text-align: center;
+  padding: 20px;
+  background-color: #eeeeee;
+  margin-top: 50px;
+  font-size: 14px;
+  color: #666666;
+  border-top: 2px solid #cccccc;
+}
