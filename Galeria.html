@@ -3,180 +3,148 @@
 <head>
   <meta charset="UTF-8">
   <title>Galería - Bimbo</title>
-  <link rel="stylesheet" href="estilos.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="estilo.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 0;
-    }
-
-    #encabezado {
-      background-color: #8eb9a3;
-      text-align: center;
-      color: white;
-      padding: 20px;
-    }
-
-    .navbar {
-      list-style: none;
-      background-color: #048484;
+      background-color: #f0fff5;
       margin: 0;
       padding: 0;
-      display: flex;
-      justify-content: center;
     }
-
-    .navbar li {
-      margin: 0 15px;
+    h1, h3 {
+      text-align: center;
+      color: #2b5d46;
     }
-
-    .navbar a {
-      text-decoration: none;
-      color: white;
-      font-weight: bold;
-      display: block;
-      padding: 10px;
-    }
-
-    .navbar a:hover {
-      background-color: #036d6d;
-    }
-
-    #galeria {
+    .galeria {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      background-color: #eafff5;
+      gap: 16px;
       padding: 20px;
     }
-
     .ficha {
-      width: 200px;
-      margin: 10px;
+      width: 180px;
       text-align: center;
+      background-color: #e1f7e3;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
     }
-
     .ficha img {
       width: 100%;
+      height: auto;
       border-radius: 8px;
     }
-
-    #pie {
-      clear: both;
-      background-color: #8eb9a3;
-      text-align: center;
-      padding: 15px;
-      color: white;
-      margin-top: 20px;
-    }
-
-    h3 {
-      width: 100%;
-      text-align: center;
-      color: #048484;
+    p {
+      margin-top: 5px;
+      color: #333;
     }
   </style>
 </head>
 <body>
-  <div id="encabezado">
-    <h1>Bimbo</h1>
-    <ul class="navbar">
-      <li><a href="index.html">Página inicio</a></li>
-      <li><a href="contacto.html">Contacto</a></li>
-      <li><a href="nosotros.html">Nosotros</a></li>
-      <li><a href="galeria.html">Galería</a></li>
-    </ul>
-  </div>
+  <h1>Galería de Productos Bimbo</h1>
 
-  <div id="galeria">
-
-    <!-- PAN BLANCO -->
-    <h3>Pan Blanco</h3>
-
+  <h3>Panes</h3>
+  <div class="galeria">
     <div class="ficha">
       <a href="blanco.jpg" target="_blank">
         <img src="blancop.jpg" alt="Pan Sandwich">
       </a>
       <p>Pan de Sandwich</p>
     </div>
-
     <div class="ficha">
       <a href="blanco1.jpg" target="_blank">
         <img src="blanco1 p.jpg" alt="Pan Tostado Clásico">
       </a>
       <p>Pan Tostado Clásico</p>
     </div>
-
     <div class="ficha">
       <a href="blanco2.jpg" target="_blank">
         <img src="blanco2 p.jpg" alt="Pan Tostado Blanco">
       </a>
       <p>Pan Tostado Blanco</p>
     </div>
-
     <div class="ficha">
       <a href="blanco3.jpg" target="_blank">
         <img src="blanco3 p.jpg" alt="Bimbollos">
       </a>
       <p>Bimbollos</p>
     </div>
-
     <div class="ficha">
       <a href="blanco4.jpg" target="_blank">
         <img src="blanco4 p.jpg" alt="Roles">
       </a>
       <p>Roles</p>
     </div>
+  </div>
 
-    <!-- COMIDAS RÁPIDAS -->
-    <h3>Comidas Rápidas</h3>
-
+  <h3>Comidas Rápidas</h3>
+  <div class="galeria">
     <div class="ficha">
       <a href="comida rapidas1.jpg" target="_blank">
         <img src="comida rapidas1 p.jpg" alt="Bimbollos Parrilleros">
       </a>
       <p>Bimbollos Parrilleros</p>
     </div>
-
     <div class="ficha">
       <a href="comidas rapidas2.jpg" target="_blank">
         <img src="comidas rapidas2 p.jpg" alt="Bimbollos Súper">
       </a>
       <p>Bimbollos Súper</p>
     </div>
-
     <div class="ficha">
       <a href="comidas rapidas3.jpg" target="_blank">
         <img src="comidas rapidas3 p.jpg" alt="Bimbollos Brioche">
       </a>
       <p>Bimbollos Brioche</p>
     </div>
-
     <div class="ficha">
       <a href="comidas rapidas.jpg" target="_blank">
         <img src="comidas rapidas p.jpg" alt="Bimbollos">
       </a>
       <p>Bimbollos</p>
     </div>
-
     <div class="ficha">
       <a href="comidas rapidas5.jpg" target="_blank">
         <img src="comidas rapidas 5 p.jpg" alt="Medias Noches Brioche">
       </a>
       <p>Medias Noches Brioche</p>
     </div>
+  </div>
 
-    <!-- SNACKS -->
-    <h3>Snacks y Meriendas</h3>
-
+  <h3>Snacks y Meriendas</h3>
+  <div class="galeria">
     <div class="ficha">
       <a href="Para snacks y meriendas.jpg" target="_blank">
         <img src="Para snacks y meriendas p.jpg" alt="Donas">
       </a>
       <p>Donas</p>
     </div>
-
     <div class="ficha">
       <a href="Para snacks y meriendas2.jpg" target="_blank">
         <img src="Para snacks y meriendas 2 p.jpg" alt="Little Bites">
+      </a>
+      <p>Little Bites</p>
+    </div>
+    <div class="ficha">
+      <a href="Para snacks y meriendas3.jpg" target="_blank">
+        <img src="Para snacks y meriendas 3 p.jpg" alt="Madalenas">
+      </a>
+      <p>Madalenas</p>
+    </div>
+    <div class="ficha">
+      <a href="Para snacks y meriendas4.jpg" target="_blank">
+        <img src="Para snacks y meriendas 4 p.jpg" alt="Bran Frut">
+      </a>
+      <p>Bran Frut</p>
+    </div>
+    <div class="ficha">
+      <a href="Para snacks y meriendas 5.jpg" target="_blank">
+        <img src="Para snacks y meriendas 5 p.jpg" alt="Bran Frut">
+      </a>
+      <p>Bran Frut</p>
+    </div>
+  </div>
+</body>
+</html>
