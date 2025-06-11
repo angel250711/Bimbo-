@@ -17,7 +17,7 @@ body {
 }
 
 .navbar {
-  background-color: #3364ff;
+  background-color: #048484;
   list-style-type: none;
   padding: 10px;
   display: flex;
@@ -36,7 +36,7 @@ body {
 
 #columna_principal {
   width: 70%;
-  background-color: #ff1337;
+  background-color: #c9fae0;
   padding: 10px;
 }
 
